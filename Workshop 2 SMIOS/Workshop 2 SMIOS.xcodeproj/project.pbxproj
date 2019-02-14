@@ -16,6 +16,9 @@
 		55F3DAFD221568F400649E20 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F3DAFC221568F400649E20 /* Player.swift */; };
 		55F3DAFF2215694000649E20 /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F3DAFE2215694000649E20 /* SampleData.swift */; };
 		55F3DB0122156DC000649E20 /* PlayerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F3DB0022156DC000649E20 /* PlayerCell.swift */; };
+		55F3DB032215755A00649E20 /* PlayerDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F3DB022215755A00649E20 /* PlayerDetailsViewController.swift */; };
+		55F3DB0522157FBA00649E20 /* GamePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F3DB0422157FBA00649E20 /* GamePickerViewController.swift */; };
+		55F3DB08221582BC00649E20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55F3DB06221582BC00649E20 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +33,9 @@
 		55F3DAFC221568F400649E20 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		55F3DAFE2215694000649E20 /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
 		55F3DB0022156DC000649E20 /* PlayerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerCell.swift; sourceTree = "<group>"; };
+		55F3DB022215755A00649E20 /* PlayerDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerDetailsViewController.swift; sourceTree = "<group>"; };
+		55F3DB0422157FBA00649E20 /* GamePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePickerViewController.swift; sourceTree = "<group>"; };
+		55F3DB07221582BC00649E20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Workshop 2 SMIOS/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +52,7 @@
 		55F3DADA2215602000649E20 = {
 			isa = PBXGroup;
 			children = (
+				55F3DB06221582BC00649E20 /* Main.storyboard */,
 				55F3DAE52215602000649E20 /* Workshop 2 SMIOS */,
 				55F3DAE42215602000649E20 /* Products */,
 			);
@@ -62,6 +69,7 @@
 		55F3DAE52215602000649E20 /* Workshop 2 SMIOS */ = {
 			isa = PBXGroup;
 			children = (
+				55F3DB022215755A00649E20 /* PlayerDetailsViewController.swift */,
 				55F3DAFC221568F400649E20 /* Player.swift */,
 				55F3DAE62215602000649E20 /* AppDelegate.swift */,
 				55F3DAE82215602000649E20 /* ViewController.swift */,
@@ -72,6 +80,7 @@
 				55F3DAF22215602100649E20 /* Info.plist */,
 				55F3DAFE2215694000649E20 /* SampleData.swift */,
 				55F3DB0022156DC000649E20 /* PlayerCell.swift */,
+				55F3DB0422157FBA00649E20 /* GamePickerViewController.swift */,
 			);
 			path = "Workshop 2 SMIOS";
 			sourceTree = "<group>";
@@ -137,6 +146,7 @@
 				55F3DAF12215602100649E20 /* LaunchScreen.storyboard in Resources */,
 				55F3DAEE2215602100649E20 /* Assets.xcassets in Resources */,
 				55F3DAEC2215602000649E20 /* Main.storyboard in Resources */,
+				55F3DB08221582BC00649E20 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,9 +157,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55F3DB0522157FBA00649E20 /* GamePickerViewController.swift in Sources */,
 				55F3DB0122156DC000649E20 /* PlayerCell.swift in Sources */,
 				55F3DAFD221568F400649E20 /* Player.swift in Sources */,
 				55F3DAE92215602000649E20 /* ViewController.swift in Sources */,
+				55F3DB032215755A00649E20 /* PlayerDetailsViewController.swift in Sources */,
 				55F3DAE72215602000649E20 /* AppDelegate.swift in Sources */,
 				55F3DAFF2215694000649E20 /* SampleData.swift in Sources */,
 				55F3DAFB2215681D00649E20 /* PlayersViewController.swift in Sources */,
@@ -173,6 +185,14 @@
 				55F3DAF02215602100649E20 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		55F3DB06221582BC00649E20 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55F3DB07221582BC00649E20 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
